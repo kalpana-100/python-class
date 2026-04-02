@@ -49,4 +49,4 @@ print(type(tup))          #tuple
 print(tup[0])
 # tup[0]=5 #invalid becuase tuples are immutable   tup=(1,) "," is compulsory for tuples if there is only one value.
 
-#dictionary
+#dictionary    {}

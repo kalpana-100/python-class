@@ -1,8 +1,12 @@
 #functions (reuseable)
+#functions may return value.
+# defination and calling
+# we can pass parameter and make function dynamic. (params)
+# argument data = as many as we data we passed in params. 
+
 # def hi():
 #     print("Hello!!")
 # hi() #calling function
-
 
 # def machine(grains):     #parameter
 #     print(f"This will give you flour of {grains}")      #f = format
