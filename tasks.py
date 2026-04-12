@@ -71,4 +71,11 @@ while True:
     else:
         print("Wrong choice")
 
-        
+    # virtual environment
+# Virtual Environment 
+# A virtual environment is an isolated Python environment.
+# It allows installing packages separately for each project.
+#Each project has its own environment. Packages installed inside it don’t affect others.
+
+#pip is the standard package manager for Python. 
+# It is used to install, update, and manage additional libraries and dependencies that are not included in the Python standard library

@@ -1,7 +1,6 @@
 #DictWriter= creates list of dictionary
 
 import csv 
-    
 def read_students(filename):
     students=[]
     with open(filename,'r')as file:
@@ -25,3 +24,4 @@ def ask_student_details():
     Class=input("Enter student class: ")
     return {'Name':Name,'Age':Age,'Class':Class}
 write_students('students.csv',[ask_student_details()])
+

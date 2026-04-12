@@ -5,7 +5,7 @@
 #     "fav_fruits":["Cherry","Banana","Orange","Kiwi"]
 # }
 # # print(len(person))
-# # indexing is allowed in dictionary.
+# # Dictionaries are unordered (conceptually) and not index-based.
 # person["fav_fruits"][0]="cherry"
 # print(person["fav_fruits"])
 
@@ -46,3 +46,31 @@
         
 #     }
 # }
+
+#Dictionary : they are used to store data value in key:value pairs.
+info={
+    "name":"Kalpana Rana",
+    "age":22,
+    "Female":True,
+    "fav_fruits":["Kiwi","Orange","Banana","Mango"]
+
+}
+info["age"]=20    #overwrite
+print(info)
+
+# Nested Dictionary
+students={
+    "name":"Lana",
+    "subjects":{
+        "phy":66,
+        "chem":85,
+        "maths":80
+    }
+}
+
+print(students)
+print(students["subjects"])
+
+#dictionary Methods
+#myDict.key()  = returs all key value.
+
